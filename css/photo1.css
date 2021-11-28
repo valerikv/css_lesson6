@@ -1,0 +1,28 @@
+div
+{
+  text-align: center;
+}
+.hovergallery img 
+{
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  opacity: 0.5;
+  margin: 15px;
+  float: left;
+}
+.hovergallery img:hover 
+{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  box-shadow: 0 0 30px gray;
+  -webkit-box-shadow: 0 0 30px gray;
+  -moz-box-shadow: 0 0 30px gray;
+  opacity: 1;
+}
